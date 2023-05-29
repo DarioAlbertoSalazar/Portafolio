@@ -5,7 +5,7 @@ const Navbar = () => {
   const [showMenuBurguer, setShowMenuBurguer] = useState(false);
 
   const clickItemNav = (item) => {
-    console.log(item);
+    
     document.getElementById(item).scrollIntoView({ behavior: "smooth" });
   };
 
@@ -28,7 +28,7 @@ const Navbar = () => {
         <p onClick={() => clickItemNav("about-me")}>About me</p>
         <p onClick={() => clickItemNav("projects")}>Projects</p>
         <S.Button onClick={() => clickItemNav("contact")}>
-          🤙 Contact me
+           Contact me
         </S.Button>
       </S.ContainerItems>
     </S.ContainerNavbar>
