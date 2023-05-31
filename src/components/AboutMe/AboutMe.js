@@ -28,7 +28,7 @@ const AboutMe = () => {
             <p>Frontend Developer</p>
           </S.Title>
           <S.DescriptionText>
-            As a front-end web developer with experience in AngularJS, I have
+            As a front-end web developer with experience in Angular and ReactJS, I have
             been able to improve my social skills, adapt to changes, and solve
             problems through my participation in various areas. Additionally, I
             have improved my UI design skills by working with Bootstrap,
